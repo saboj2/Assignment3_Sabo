@@ -9,7 +9,7 @@
     tools:context="jeffreysabocsc415.csc415_sabo_individualproject.HomeScreen">
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/spinner1"
         android:layout_width="368dp"
         android:layout_height="29dp"
         android:layout_marginStart="8dp"
@@ -19,18 +19,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_map"
         android:layout_width="350dp"
         android:layout_height="363dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:contentDescription="tcnj_map"
+        android:contentDescription="@string/map_description"
+        android:isScrollContainer="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1"
         app:srcCompat="@drawable/tcnj_map" />
 
 </android.support.constraint.ConstraintLayout>
