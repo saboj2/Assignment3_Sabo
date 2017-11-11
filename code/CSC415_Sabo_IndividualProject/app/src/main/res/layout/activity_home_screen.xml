@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="jeffreysabocsc415.csc415_sabo_individualproject.HomeScreen">
+    tools:context="jeffreysabocsc415.csc415_sabo_individualproject.Activity_HomeScreen">
 
     <Spinner
         android:id="@+id/spinner1"
