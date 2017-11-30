@@ -1,41 +1,81 @@
 package jeffreysabocsc415.csc415_sabo_individualproject;
 
 
+import java.util.ArrayList;
+
 public class Vertex {
 
     //Vertex variables
-    private string name;
+    private String name;
     private boolean is_bathroom;
-    private Vertex neighbors[];
+    private boolean known;
+    private Vertex path;
+    private int dist;
+    private ArrayList<Edge> neighbors;
+
 
     //Vertex methods
-    private string get_name()
+    public Vertex ()
     {
-        return string;
+
+    }
+    public String get_name()
+    {
+        return this.name;
     }
 
-    private void set_name(string name)
+    public void set_name(String name)
     {
         return;
     }
 
-    private boolean get_isbathroom()
+    public boolean get_isbathroom()
     {
-        return string;
+        return this.is_bathroom;
     }
 
-    private void set_isbathroom(boolean isbathroom)
+    public void set_isbathroom(boolean isbathroom)
     {
         return;
     }
 
-    private Vertex get_neighbors()
+    public ArrayList<Edge> get_neighbors()
     {
-        return string;
+        return new ArrayList<Edge>(this.neighbors);
     }
 
-    private void set_neighbors(Vertex neighbor1, Vertex neighbor2)
+    public void set_neighbors(Vertex neighbor1, Vertex neighbor2)
     {
         return;
+    }
+
+    public boolean get_known()
+    {
+        return this.known;
+    }
+
+    public void set_known(boolean known)
+    {
+        this.known = known;
+    }
+
+    public int get_dist()
+    {
+        return this.dist;
+    }
+
+    public void set_dist(int dist)
+    {
+        this.dist = dist;
+    }
+
+    public Vertex get_path()
+    {
+        return this.path;
+    }
+
+    public void set_path(Vertex path)
+    {
+        this.path = path;
     }
 }

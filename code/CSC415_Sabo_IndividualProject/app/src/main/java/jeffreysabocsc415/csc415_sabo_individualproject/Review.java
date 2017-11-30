@@ -6,19 +6,19 @@ public class Review {
     private int rating;
 
     //Review methods
-    private string get_message()
+    private String get_message()
     {
-        return string;
+        return this.message;
     }
 
-    private void set_message(string name)
+    private void set_message(String name)
     {
         return;
     }
 
     private int get_rating()
     {
-        return string;
+        return this.rating;
     }
 
     private void set_rating(int name)

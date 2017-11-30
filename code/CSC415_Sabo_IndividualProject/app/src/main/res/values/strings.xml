@@ -6,4 +6,41 @@
     <string name="about_text">About information will go here</string>
     <string name="map_description">This is the map description</string>
     <string name="bathroom_photo_description">This is the bathroom photo description</string>
+    <string name="home_prompt">Pick a Starting Location</string>
+    <string name="search_button">Search</string>
+
+    <string-array name="locations">
+        <item>A.B.E.</item>
+        <item>AIMM</item>
+        <item>Athletic Complex</item>
+        <item>Armstrong Hall</item>
+        <item>Bliss/Business Building</item>
+        <item>Brower Student Center</item>
+        <item>Campus Town</item>
+        <item>Centennial</item>
+        <item>Cromwell</item>
+        <item>Decker</item>
+        <item>Eickhoff</item>
+        <item>Education Building</item>
+        <item>Forcina</item>
+        <item>Green</item>
+        <item>Hausdoerffer</item>
+        <item>Kendall</item>
+        <item>Library</item>
+        <item>Music Building</item>
+        <item>New Residence Hall</item>
+        <item>Norsworthy</item>
+        <item>Packer</item>
+        <item>Phelps</item>
+        <item>Rec Center</item>
+        <item>Roscoe West</item>
+        <item>Social Sciences</item>
+        <item>STEM Complex</item>
+        <item>Townhouses East</item>
+        <item>Townhouses South</item>
+        <item>Townhouses West</item>
+        <item>Traverse &amp; Wolfe</item>
+        <item>Trenton Hall</item>
+
+    </string-array>
 </resources>

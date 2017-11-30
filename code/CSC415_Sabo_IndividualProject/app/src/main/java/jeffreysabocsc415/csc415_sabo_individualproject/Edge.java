@@ -4,22 +4,27 @@ public class Edge {
 
     //edge variables
     private int weight;
-    private Vertex connections[];
+    private Vertex v1, v2;
 
     //edge methods
-    private int get_weight()
+    public int get_weight()
     {
-       return 0;
+       return this.weight;
     }
 
-    private void set_weight(int weight)
+    public void set_weight(int weight)
     {
         return;
     }
 
-    private int get_connections()
+    public Vertex get_connection(String startnode)
     {
-        return 0;
+        if (v1.get_name().equals(startnode)){
+            return v2;
+        }
+        else {
+            return v1;
+        }
     }
 
     private void set_connections(int weight)

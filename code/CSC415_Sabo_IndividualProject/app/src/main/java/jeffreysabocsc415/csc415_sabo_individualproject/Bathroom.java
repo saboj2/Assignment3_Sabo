@@ -11,24 +11,25 @@ public class Bathroom extends Vertex {
     private Review ratings[];
 
     //Bathroom methods
+    private String get_floor()
+    {
+        return this.floor;
+    }
+
+    private void set_floor(String floor)
+    {
+        this.floor = floor;
+        return;
+    }
+
     private void leave_review()
     {
 
     }
 
-    private string get_floor()
+    private Review[] get_ratings()
     {
-        return string;
-    }
-
-    private void set_floor(string floor)
-    {
-        return;
-    }
-
-    private Review get_ratings()
-    {
-        return string;
+        return this.ratings;
     }
 
     private void set_ratings(Review name)
