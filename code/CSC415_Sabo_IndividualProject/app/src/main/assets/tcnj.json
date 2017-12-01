@@ -1,0 +1,81 @@
+{
+    "school_name":"The College of New Jersey",
+    "vertices":[
+        {
+            "name":"A.B.E",
+            "is_bathroom":"false",
+            "neighbors":[
+                {
+                    "weight":"12",
+                    "v1":"Brower Student Center"
+                },
+                {
+                    "weight":"10",
+                    "v1":"Library"
+                },
+                {
+                    "weight":"3",
+                    "v1":"Decker"
+                }
+            ]
+        },
+        {
+            "name":"Brower Student Center",
+            "is_bathroom":"true",
+            "bathroom":
+            {
+                "is_residential":"false",
+                "floor":"Second"
+            }
+        ,
+            "neighbors":[
+                {
+                    "weight":"12",
+                    "v1":"A.B.E"
+                },
+                {
+                    "weight":"13",
+                    "v1":"Library"
+                }
+            ]
+        },
+        {
+            "name":"Decker",
+            "is_bathroom":"true",
+            "bathroom":
+            {
+                "is_residential":"true",
+                "floor":"first"
+            },
+            "neighbors":[
+                {
+                    "weight":"3",
+                    "v1":"A.B.E"
+                },
+                {
+                    "weight":"6",
+                    "v1":"Library"
+                }
+            ]
+        },
+        {
+            "name":"Library",
+            "is_bathroom":"false",
+            "neighbors":[
+                {
+                    "weight":"10",
+                    "v1":"A.B.E"
+                },
+                {
+                    "weight":"13",
+                    "v1":"Brower Student Center"
+                },
+                {
+                    "weight":"6",
+                    "v1":"Decker"
+                }
+            ]
+        }
+    ]
+
+}

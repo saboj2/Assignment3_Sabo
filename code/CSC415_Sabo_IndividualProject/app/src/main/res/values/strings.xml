@@ -8,6 +8,7 @@
     <string name="bathroom_photo_description">This is the bathroom photo description</string>
     <string name="home_prompt">Pick a Starting Location</string>
     <string name="search_button">Search</string>
+    <string name="bathroom_name_msg">This bathroom</string>
 
     <string-array name="locations">
         <item>A.B.E.</item>
